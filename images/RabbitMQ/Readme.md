@@ -5,7 +5,7 @@ http://localhost:15672/
 
 ### Docker run
 ```
-docker run -p 15672:15672 -p 5672:5672 -p 5671:5671 -p 4369:4369 -p 15671:15671  test_rmq
+docker run -p 15672:15672 -p 5672:5672 -p 5671:5671 -p 4369:4369 -p 15671:15671 image_name 
 ```
 ### Docker compose
 ```
